@@ -1,0 +1,2 @@
+module Openthinks.Graph
+plugin GraphPlugin

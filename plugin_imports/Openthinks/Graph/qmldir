@@ -1,0 +1,3 @@
+module Openthinks.Graph
+plugin GraphPlugin
+typeinfo plugin.qmltypes

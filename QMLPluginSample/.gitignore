@@ -1,0 +1,6 @@
+*~
+*.orig
+*.user
+*-Debug/
+*-Release/
+*.md.vswp
