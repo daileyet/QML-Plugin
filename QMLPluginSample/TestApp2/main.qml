@@ -18,7 +18,7 @@ Window {
         GraphChart{
             id:graphChart
             anchors.fill: parent
-            lineColor:"#ff0000"            
+            lineColor:"#ff0000"
         }
     }
 

@@ -93,6 +93,32 @@ plugin GraphPlugin
 typeinfo plugin.qmltypes
 ```
 
+### Support Designer
+When switch to Qt Creator Design model, if we need make our new plugin type show in the `QML Types`, we should do the following steps:
+1. create a folder `designer` under `plugin_imports\Openthinks\Graph`
+2. add `.metainfo` file and reference resource icon
+```
+MetaInfo {
+    Type {
+        name: "Openthinks.Graph.GraphChart"
+        icon: "images/openthinks.png"
+
+        ItemLibraryEntry {
+            name: "GraphChart"
+            category: "Openthinks"
+            libraryIcon: "images/openthinks.png"
+            version: "1.0"
+            requiredImport: "Openthinks.Graph"
+            Property { name: "width"; type: "int"; value: 120 }
+            Property { name: "height"; type: "int"; value: 80 }
+        }
+    }
+}
+```
+![](img/plugin_designer_metainfo.png)
+
+![](img/qt_creator_design_mode.png)
+
 ###  Reference links
 
 [Module Definition qmldir Files](https://doc.qt.io/qt-5/qtqml-modules-qmldir.html)

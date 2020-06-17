@@ -1,0 +1,16 @@
+MetaInfo {
+    Type {
+        name: "Openthinks.Graph.GraphChart"
+        icon: "images/openthinks.png"
+
+        ItemLibraryEntry {
+            name: "GraphChart"
+            category: "Openthinks"
+            libraryIcon: "images/openthinks.png"
+            version: "1.0"
+            requiredImport: "Openthinks.Graph"
+            Property { name: "width"; type: "int"; value: 120 }
+            Property { name: "height"; type: "int"; value: 80 }
+        }
+    }
+}
