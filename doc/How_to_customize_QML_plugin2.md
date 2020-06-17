@@ -96,4 +96,7 @@ typeinfo plugin.qmltypes
 ###  Reference links
 
 [Module Definition qmldir Files](https://doc.qt.io/qt-5/qtqml-modules-qmldir.html)
+
 [Writing QML Extensions with C++](https://doc.qt.io/qt-5/qtqml-tutorials-extending-qml-example.html)
+
+[Qml组件化编程10-自定义Quick模块](https://jaredtao.github.io/2019/06/01/Qml%E7%BB%84%E4%BB%B6%E5%8C%96%E7%BC%96%E7%A8%8B10-%E8%87%AA%E5%AE%9A%E4%B9%89Quick%E6%A8%A1%E5%9D%97/)
